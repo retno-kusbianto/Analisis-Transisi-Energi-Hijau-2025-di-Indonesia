@@ -172,7 +172,7 @@ hasil_df
 
 
 ### Kesimpulan 
-Sebanyak 66,7% perusahaan terkena pajak karbon, menunjukkan bahwa lebih dari setengah pelaku industri masih belum patuh terhadap ambang batas emisi karbon yang ditetapkan pemerintah. Angka ini bukan sekadar statistik, melainkan sinyal krisis kepatuhan yang tidak bisa dianggap remeh.
+Data diatas menunjukkan bahwa lebih dari setengah pelaku industri masih belum patuh terhadap ambang batas emisi karbon yang ditetapkan pemerintah. Angka ini bukan sekadar statistik, melainkan sinyal krisis kepatuhan yang tidak bisa dianggap remeh.
 
 Pemerintah tidak bisa bersikap pasif. Ketegasan dari penegak hukum dan regulator sangat diperlukan agar kebijakan lingkungan tidak hanya menjadi formalitas di atas kertas. Penindakan tegas akan memberikan efek jera dan mendorong perusahaan untuk benar-benar menurunkan emisinya, bukan sekadar memanipulasi data atau berlindung di balik jargon “hijau”.
 Solusi konkret yang harus segera diterapkan:
