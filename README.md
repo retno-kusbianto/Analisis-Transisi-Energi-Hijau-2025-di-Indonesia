@@ -1,10 +1,10 @@
 # Analisis-Transisi-Energi-Hijau-2025-di-Indonesia
 
-****Nama: Agus Iskandar Darmawan**
+**Nama: Agus Iskandar Darmawan**
 
 **No Absen: 09.009.DB2025**
 
-**Week Task****
+**Week Task**
 
 ### ✏️ Pendahuluan
 
