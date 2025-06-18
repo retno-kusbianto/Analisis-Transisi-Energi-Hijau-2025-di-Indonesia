@@ -31,9 +31,15 @@ Analisis Python merupakan analisis data menggunakan Python adalah proses mengeks
 
 Data yang digunakan merupakan data berbentuk CSV yang didapat dari Walhi. Database terdiri dari tiga tabulasi CSV, yakni emisi_perusahaan.csv yang berisi data emisi perusahaan di Jawa Barat, konflik_lahan.csv yang beriisi data konflik lahan PLTS di Indonesia, dan tren_emisi.csv yang berisi tren emisi perusahaan di jawa barat selama 4 tahun, antara 2000-2024. Perhitunan dan analisis ini dibagi menjadi queri untuk memudahkan proses coding.
 
+Data Emisi Perusahaan
+
 ![emisi_perusahaan](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/emisi_perusahaan.png)
 
+Data Konflik Lahan
+
 ![konflik_lahan](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/konflik_lahan.png)
+
+Data Tren Emisi 2020-2023
 
 ![tren_emisi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/tren_emisi.png)
 
