@@ -31,22 +31,22 @@ Analisis data transisi energi hijau 2025 di Indonesia dengan Python (Anaconda, V
 
 1. Penerapan pajak karbon dapat mendorong pengurangan emisi industri, sebagai bagian dari strategi ekonomi hijau dan komitmen iklim, baik di Indonesia maupun global
 
-🌍 Dasar dan Tujuan Pajak Karbon di Indonesia
-- Aturan ini diatur dalam Pasal 13 UU No. 7/2021 (UU HPP), dengan prinsip “polluter pays” dan skema cap‑and‑tax untuk sektor PLTU batu bara sejak April 2022 (diperluas ke sektor lain mulai 2025) 
-- Tujuan utamanya: mengubah perilaku industri, mendorong efisiensi, mempercepat adopsi energi terbarukan, inovasi teknologi, dan menjadi sumber dana untuk mitigasi iklim serta SDGs 
+    Dasar dan Tujuan Pajak Karbon di Indonesia
+    - Aturan ini diatur dalam Pasal 13 UU No. 7/2021 (UU HPP), dengan prinsip “polluter pays” dan skema cap‑and‑tax untuk sektor PLTU batu bara sejak April 2022 (diperluas ke sektor lain mulai 2025) 
+    - Tujuan utamanya: mengubah perilaku industri, mendorong efisiensi, mempercepat adopsi energi terbarukan, inovasi teknologi, dan menjadi sumber dana untuk mitigasi iklim serta SDGs 
 
 2. Greenwashing adalah strategi pemasaran atau komunikasi yang digunakan oleh perusahaan, organisasi, atau pihak tertentu untuk menampilkan diri seolah-olah peduli lingkungan atau ramah lingkungan, padahal kenyataannya tidak sesuai atau hanya sekadar pencitraan.
 
-Ciri-ciri Greenwashing:
-✅ Klaim ramah lingkungan yang tidak didukung data atau bukti jelas
-✅ Informasi yang menyesatkan atau dilebih-lebihkan
-✅ Fokus pada satu aspek hijau, tapi mengabaikan dampak besar lain
-✅ Penggunaan label atau simbol hijau tanpa sertifikasi resmi
+    Ciri-ciri Greenwashing:
+    ✅ Klaim ramah lingkungan yang tidak didukung data atau bukti jelas
+    ✅ Informasi yang menyesatkan atau dilebih-lebihkan
+    ✅ Fokus pada satu aspek hijau, tapi mengabaikan dampak besar lain
+    ✅ Penggunaan label atau simbol hijau tanpa sertifikasi resmi
 
-Contoh Greenwashing:
-🌱 Produk dengan label “eco-friendly” tapi tidak ada sertifikasi resmi
-🌱 Perusahaan mengiklankan penanaman pohon, tapi operasionalnya merusak hutan
-🌱 Kampanye plastik ramah lingkungan, tapi masih memproduksi sampah plastik sekali pakai dalam jumlah besar
+    Contoh Greenwashing:
+    🌱 Produk dengan label “eco-friendly” tapi tidak ada sertifikasi resmi
+    🌱 Perusahaan mengiklankan penanaman pohon, tapi operasionalnya merusak hutan
+    🌱 Kampanye plastik ramah lingkungan, tapi masih memproduksi sampah plastik sekali pakai dalam jumlah besar
 
 3. Konflik lahan dalam proyek Pembangkit Listrik Tenaga Surya (PLTS) dapat menimbulkan dampak sosial yang signifikan, terutama jika perencanaannya tidak mempertimbangkan hak masyarakat lokal, petani, atau komunitas adat.
 
