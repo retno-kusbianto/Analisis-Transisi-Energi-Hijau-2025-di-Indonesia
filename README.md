@@ -157,3 +157,13 @@ for index, row in df.iterrows():
         #Status bebas pajak jika emisi <= 50 ton
         print(f"{perusahaan} BEBAS pajak karbon dengan emisi {emisi} ton!")
 
+## Tampilkan List Data hasil
+
+
+```python
+hasil_df
+```
+
+
+
+![image](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Kepatuhan%20Pajak%20Karbon.jpeg)
