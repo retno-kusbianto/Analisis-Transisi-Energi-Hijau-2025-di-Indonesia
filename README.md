@@ -177,12 +177,9 @@ Sebanyak 66,7% perusahaan terkena pajak karbon, menunjukkan bahwa lebih dari set
 Pemerintah tidak bisa bersikap pasif. Ketegasan dari penegak hukum dan regulator sangat diperlukan agar kebijakan lingkungan tidak hanya menjadi formalitas di atas kertas. Penindakan tegas akan memberikan efek jera dan mendorong perusahaan untuk benar-benar menurunkan emisinya, bukan sekadar memanipulasi data atau berlindung di balik jargon “hijau”.
 Solusi konkret yang harus segera diterapkan:
 
-Kenaikan tarif pajak karbon secara progresif bagi perusahaan yang terus melampaui batas emisi.
-
-Penerapan sanksi administratif dan pidana yang lebih berat bagi pelanggar berulang.
-
-Peringatan keras dan publikasi daftar perusahaan tidak patuh agar ada tekanan sosial dan reputasi.
-
-Audit independen terhadap laporan emisi perusahaan, untuk mencegah greenwashing dan manipulasi data.
+1. Kenaikan tarif pajak karbon secara progresif bagi perusahaan yang terus melampaui batas emisi.
+2. Penerapan sanksi administratif dan pidana yang lebih berat bagi pelanggar berulang.
+3. Peringatan keras dan publikasi daftar perusahaan tidak patuh agar ada tekanan sosial dan reputasi.
+4. Audit independen terhadap laporan emisi perusahaan, untuk mencegah greenwashing dan manipulasi data.
 
 Langkah ini penting bukan hanya demi mencapai target iklim nasional, tetapi juga demi keadilan sosial dan lingkungan. Pajak karbon yang lemah hanya akan membebani masyarakat tanpa menyentuh akar persoalan: emisi industri besar yang tak terkendali.
