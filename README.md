@@ -478,7 +478,7 @@ Output:
 4. 70% Proyek PLTS masih berisiko
 
 **Saran untuk stakeholder agar transisi hijau di Indonesia efektif dan efisien:**
-1. Monitoring dan evaluasi terhadap kepatuhan perusahaan untuk meminimalisir praktik Granwashing.
+1. Monitoring dan evaluasi terhadap kepatuhan perusahaan untuk meminimalisir praktik Greenwashing.
 2. Mediasi anatara Pemerintah, Masyarakat, dan BUMN yang menjalankan proyek PLTS, serta ahli lingkungan untuk menarai solusi terbaik untuk lingkungan dan masyarakat tanpa mengambaikan kemajuan pembangunan.
 3. Menerapkan pajak yang lebih besar namun tidak mengganggu iklim investasi di Indonesia agar emisi yang dihasilkan dari perusahaan bisa diminimalisir.
 
