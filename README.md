@@ -482,6 +482,4 @@ Output:
 2. Mediasi anatara Pemerintah, Masyarakat, dan BUMN yang menjalankan proyek PLTS, serta ahli lingkungan untuk menarai solusi terbaik untuk lingkungan dan masyarakat tanpa mengambaikan kemajuan pembangunan.
 3. Menerapkan pajak yang lebih besar namun tidak mengganggu iklim investasi di Indonesia agar emisi yang dihasilkan dari perusahaan bisa diminimalisir.
 
-Semoga bermanfaat🌳
-
----
+© ETL Batch 9
