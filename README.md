@@ -40,10 +40,12 @@ Data yang digunakan merupakan data berbentuk CSV yang didapat dari Walhi. Databa
 
 
 Tujuan: Mengecek apakah emisi perusahaan dari CSV melebihi batas pajak karbon (50 ton CO2)
+
 Konsep: If-else, Pandas untuk CSV
+
 Output: Status Pajak (kena atau bebas) untuk Setiap Perusahaan
 
-'''
+```
 
 import pandas as pd
 
@@ -59,7 +61,7 @@ for index, row in df.iterrows():
     else:
         print(f"{perusahaan} bebas pajak karbon dengan emisi {emisi} ton")
         
-'''
+```
 
 Pandas untuk cek kepatuhan pajak karbon dari data CSV. Emisi diambil dari emisi_perusahaan.csv, dibandingkan dengan batas 50 ton CO2 (standar sederhana, misalnya Perpres 98/2021), menggunakan If-else untuk menentukan status pajak.
 
@@ -71,10 +73,12 @@ Output:
 #### Menghitung Pajak Karbon
 
 Tujuan: Menghitung Pajak Karbon untuk Perusahaan dari CSV Berdasarkan Emisi 2024
+
 Konsep if-else, Pandas untuk baca csv
+
 Output: Nilai Pajak (RP) untuk Setiap Perusahaan
 
-'''
+```
 
 import pandas as pd
 df = pd.read_csv('C:/EnergiHijau2025/emisi_perusahaan.csv')
@@ -90,7 +94,7 @@ for index, row in df.iterrows():
     else:
         print(f"{perusahaan} bebas kena karbon")
   
-  '''
+```
    
 7. Solusi bantu capai Net Zero Emission 2060.
 
