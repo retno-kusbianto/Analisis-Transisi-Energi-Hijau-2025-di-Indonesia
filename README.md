@@ -1,10 +1,13 @@
 # Analisis-Transisi-Energi-Hijau-2025-di-Indonesia
+---
 
 **Nama: Agus Iskandar Darmawan**
 
 **No Absen: 09.009.DB2025**
 
 **Week Task**
+
+---
 
 ### ✏️ Pendahuluan
 
@@ -194,6 +197,9 @@ for index, row in df.iterrows():
 print("Data emisi perusahaan: ", emisi_dict)
 
 ```
+
+Output:
+
 ![data emisi dalam dict](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/emisi%20perusahaan%20dalam%20dictionary.png)
 
 #### Query 6: Deteki Greenwashing dengan Dictionary
@@ -299,6 +305,7 @@ cek_greenwashing(emisi_dict)
 ```
 
 Output:
+
 ![Deteksi Greenwashing dengan fungsi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/deteksi%20greenwashing%203.png)
 
 #### QUERY 9: Analisi Konflik Lahan dengan Modul
