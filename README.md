@@ -169,3 +169,20 @@ hasil_df
 
 
 ![image](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Kepatuhan%20Pajak%20Karbon.jpeg)
+
+
+### Kesimpulan 
+Sebanyak 66,7% perusahaan terkena pajak karbon, menunjukkan bahwa lebih dari setengah pelaku industri masih belum patuh terhadap ambang batas emisi karbon yang ditetapkan pemerintah. Angka ini bukan sekadar statistik, melainkan sinyal krisis kepatuhan yang tidak bisa dianggap remeh.
+
+Pemerintah tidak bisa bersikap pasif. Ketegasan dari penegak hukum dan regulator sangat diperlukan agar kebijakan lingkungan tidak hanya menjadi formalitas di atas kertas. Penindakan tegas akan memberikan efek jera dan mendorong perusahaan untuk benar-benar menurunkan emisinya, bukan sekadar memanipulasi data atau berlindung di balik jargon “hijau”.
+Solusi konkret yang harus segera diterapkan:
+
+Kenaikan tarif pajak karbon secara progresif bagi perusahaan yang terus melampaui batas emisi.
+
+Penerapan sanksi administratif dan pidana yang lebih berat bagi pelanggar berulang.
+
+Peringatan keras dan publikasi daftar perusahaan tidak patuh agar ada tekanan sosial dan reputasi.
+
+Audit independen terhadap laporan emisi perusahaan, untuk mencegah greenwashing dan manipulasi data.
+
+Langkah ini penting bukan hanya demi mencapai target iklim nasional, tetapi juga demi keadilan sosial dan lingkungan. Pajak karbon yang lemah hanya akan membebani masyarakat tanpa menyentuh akar persoalan: emisi industri besar yang tak terkendali.
