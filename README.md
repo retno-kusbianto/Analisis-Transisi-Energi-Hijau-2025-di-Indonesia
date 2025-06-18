@@ -46,47 +46,25 @@ Contoh Greenwashing:
 🌱 Perusahaan mengiklankan penanaman pohon, tapi operasionalnya merusak hutan
 🌱 Kampanye plastik ramah lingkungan, tapi masih memproduksi sampah plastik sekali pakai dalam jumlah besar
 
-3. Identifikasi wilayah konflik lahan proyek energi hijau
+3. Konflik lahan dalam proyek Pembangkit Listrik Tenaga Surya (PLTS) dapat menimbulkan dampak sosial yang signifikan, terutama jika perencanaannya tidak mempertimbangkan hak masyarakat lokal, petani, atau komunitas adat.
 
-   
+Analisis risiko lahan sangat penting untuk mengurangi konflik sosial dalam proyek-proyek pembangunan, termasuk proyek energi hijau seperti PLTS (Pembangkit Listrik Tenaga Surya). Berikut adalah langkah-langkah dan aspek yang perlu dianalisis untuk menilai dan memitigasi risiko lahan dengan pemanfaatan teknologi, diantaranya :
+- GIS & Remote Sensing untuk pemetaan lahan dan zona risiko
+- Machine Learning untuk prediksi titik konflik berdasarkan data historis
+- Platform digital partisipatif untuk pelaporan keluhan masyarakat secara real-time
 
+# PROBLEM ISSUE
 
----
+Transisi energi hijau 2025 di Indonesia menghadapi tiga masalah utama.
+Pertama, data emisi perusahaan sering tidak akurat, menyulitkan penerapan pajak karbon, terutama di industri tekstil Jawa Barat.
+Kedua, greenwashing merajalela. Banyak perusahaan mengklaim hijau, tapi emisinya melebihi batas. KLHK melaporkan 25% klaim hijau tidak terverifikasi.
+Ketiga, konflik lahan menghambat proyek PLTS. Di Jawa Tengah, lahan sawah petani diambil untuk PLTS, memicu 800 konflik lahan pada 2023, menurut WALHI. Ini menghalangi investasi energi hijau dan merugikan komunitas lokal. Tanpa analisis data yang solid, pemerintah kesulitan membuat kebijakan efektif. Kita akan pakai Python untuk menghitung pajak karbon, mendeteksi greenwashing, dan mengevaluasi risiko lahan. Solusi ini membantu capai Net Zero Emission 2060 dan mengurangi konflik sosial. 
 
-![ROADMAP](https://github.com/arry-hutomo/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/ROADMAP.png)
+Poin Utama:
+- Data emisi tidak akurat hambat pajak karbon.
+- Greenwashing (25% klaim tak valid) menyesatkan publik.
+- Konflik lahan (800 kasus 2023) ganggu proyek PLTS.
+- Analisis Python dukung kebijakan energi hijau.
+- Solusi bantu capai Net Zero Emission 2060.
 
----
-🌟✨ SELAMAT DATANG DI STAGE 2: ECO DATA PIONEERS! ✨🌟
-
-Halo, Eco-Techno Leaders masa depan! 🎉🌱 Bersiaplah masuk ke petualangan baru yang seru banget—kita akan jadi pionir data hijau untuk Indonesia yang lebih sustainable! 💚📊
-
-Di stage ini, kita akan:
-🔹 Hitung pajak karbon untuk patuhi regulasi 📜💰
-🔹 Deteksi greenwashing pakai data emisi 🕵️♂️🌍
-🔹 Analisis risiko lahan kurangi konflik sosial ⚖️🚜
-🔹 Belajar Python dari dasar sampai pro (if-else sampai modul!) 🐍💻
-🔹 Bikin portofolio keren buat usulan ke pemerintah 🏛️✨
-
-Tools yang akan dipakai:
-🛠️ Anaconda + VSCode + Jupyter Notebook
-📚 Library: Pandas, NumPy, Matplotlib (siap jadi data wizard!)
-
-Tenang! Tutorial ini ramah pemula, langkah demi langkah, pakai data realistis, dan pastinya—dampaknya nyata! 🚀
-
-"Masa depan hijau dimulai dari langkah kecil kita hari ini. Yuk, bersama-sama wujudkan perubahan!" 🌿🙌
-
-Doa & Semangat:
-"Semoga ilmu ini jadi berkah, bermanfaat untuk bumi dan sesama. Aamiin! 🤲✨"
-
-
-📌 Ready to rock? Klik link di bawah untuk mulai petualanganmu!
-
-[NEXT TO STAGES 2](https://arry-hutomo.github.io/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/)
-
-#EcoDataPioneers #EnergiHijau2025 #PythonForEarth 💡🌎
-
-
-**ARRY HUTOMO**  
-✨ _**Founder • Nawala Integra Nusantara**_ ✨  
-
----
+  
