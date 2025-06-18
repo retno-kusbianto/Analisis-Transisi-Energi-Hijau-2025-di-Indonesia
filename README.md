@@ -106,5 +106,13 @@ import pandas as pd
 import numpy as np
 
 ```
+3. Matplotlib & Seaborn
+📦 Fungsi: Visualisasi data
 
+🧠 Gunakan untuk: Membuat grafik tren emisi, risiko konflik lahan, dan pola greenwashing.
+
+```python
+import matplotlib.pyplot as plt
+
+```
   
