@@ -28,11 +28,11 @@ Analisis Python merupakan analisis data menggunakan Python adalah proses mengeks
 
 Data yang digunakan merupakan data berbentuk CSV yang didapat dari Walhi. Database terdiri dari tiga tabulasi CSV, yakni emisi_perusahaan.csv yang berisi data emisi perusahaan di Jawa Barat, konflik_lahan.csv yang beriisi data konflik lahan PLTS di Indonesia, dan tren_emisi.csv yang berisi tren emisi perusahaan di jawa barat selama 4 tahun, antara 2000-2024. Perhitunan dan analisis ini dibagi menjadi queri untuk memudahkan proses coding.
 
-![emisi_perusahaan]()
+![emisi_perusahaan](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/emisi_perusahaan.png)
 
-![konflik_lahan]()
+![konflik_lahan](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/konflik_lahan.png)
 
-![tren_emisi]()
+![tren_emisi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/tren_emisi.png)
 
 #### Queri 1: Mengecek Status Pajak
 
@@ -65,7 +65,7 @@ Queri ini menggunakan Pandas untuk cek kepatuhan pajak karbon dari data CSV. Emi
 
 Output:
 
-![Mengecek kepatuhan pajak]()
+![Mengecek kepatuhan pajak](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/status%20pajak%202.png)
 
 
 #### Queri 2: Menghitung Pajak Karbon
@@ -96,7 +96,7 @@ for index, row in df.iterrows():
 
 Output:
 
-![Hitung_Pajak]()
+![Hitung_Pajak](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/status%20pajak.png)
 
 Query ini menghitung pajak karbon dari CSV. Kalau emisi lebih dari 50 ton, kita hitung Rp20.000 per ton kelebihan. Pakai if-else dan Pandas, ini bantu patuh regulasi karbon.
 
@@ -128,7 +128,7 @@ print("Data emisi perusahaan:", emisi_list)
 
 Output:
 
-![Data_dalam_list]()
+![Data_dalam_list](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/emisi%20dalam%20list.png)
 
 Query ini menggunakna list untuk menyimpan emisi dari emisi_perusahaan.csv, langkah awal mengelola data regulasi karbon. For loop dan append() digunakan untuk mengumpulkan data, cocok untuk pemula. Emisi diambil dari kolom Emisi_2024, realistis untuk industri menengah. Query ini kembangkan Query 2, beralih ke struktur data massal, mempersiapkan analisis lebih kompleks. Batas 50 ton (standar lingkungan) jadi acuan. Hasilnya bantu pemerintah verifikasi emisi, membangun portofolio dengan struktur data dasar, mendukung usulan verifikasi.
 
@@ -163,6 +163,9 @@ for i, emisi in enumerate(emisi_list):
         print(f"{perusahaan} bebas kena pajak dengan emisi {emisi} ton")
 
 ```
+Output:
+
+![Mengecek kepatuhan pajak](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/status%20pajak%202.png)
 
 #### Query 5: Menyimpan Data Emisi dalam Dictionary
 
@@ -191,6 +194,7 @@ for index, row in df.iterrows():
 print("Data emisi perusahaan: ", emisi_dict)
 
 ```
+![data emisi dalam dict](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/emisi%20perusahaan%20dalam%20dictionary.png)
 
 #### Query 6: Deteki Greenwashing dengan Dictionary
 
@@ -225,7 +229,7 @@ for perusahaan, data in emisi_dict.items():
 
 Output:
 
-![Deteksi_Greenwashing]()
+![Deteksi_Greenwashing](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/deteksi%20greenwashing.png)
 
 #### Query 7: Menghitung Pajak Karbon dengan Fungsi
 
@@ -258,7 +262,7 @@ for index, row in df.iterrows():
 
 Output:
 
-![Menghitung pajak karbon dengan fungsi]()
+![Menghitung pajak karbon dengan fungsi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/status%20pajak%203.png)
 
 #### Query 8: Deteksi Greenwashing dengan Fungsi
 
@@ -295,7 +299,7 @@ cek_greenwashing(emisi_dict)
 ```
 
 Output:
-![Deteksi Greenwashing dengan fungsi]()
+![Deteksi Greenwashing dengan fungsi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/deteksi%20greenwashing%203.png)
 
 #### QUERY 9: Analisi Konflik Lahan dengan Modul
 
@@ -325,7 +329,7 @@ cek_konflik(lahan_dict)
 
 Output:
 
-![Analisis konflik lahan dengan modul]()
+![Analisis konflik lahan dengan modul](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/status%20konflik.png)
 
 
 #### QUERY 10: Bar Chart Emisi Perusahaan
@@ -366,7 +370,7 @@ plot_emisi(emisi_dict)
 
 Output:
 
-![Bar Chart Emisi Perusahaan]()
+![Bar Chart Emisi Perusahaan](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/output%20bar.png)
 
 #### QUERY 11: Pie Chart Distribusi Konflik Lahan
 
@@ -406,7 +410,7 @@ plot_konflik(lahan_dict)
 
 Output:
 
-![Pie chart distribusi konflik lahan]()
+![Pie chart distribusi konflik lahan](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/output%20pie.png)
 
 #### QUERY 12: Line Chart Tren Emisi
 
@@ -449,20 +453,22 @@ plot_tren_emisi(emisi_dict)
 
 Output:
 
-![Tren Emisi]()
+![Tren Emisi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/output%20line.png)
 
 
 ### 💡Hasil Analisis
 
-Dari analisis di atas dihasilkan beberapa hal:
+**Dari analisis di atas dihasilkan beberapa hal:**
 1. Tren menunjukan emisi yang dihasilkan menurun dari 2020 hingga 2023
 2. Masih banyak yang melakukan greenwashing
 3. 19 dari 31 perusahaan masih menghasilkan emisi di atas batas emisi yang ditentukan
 4. 70% Proyek PLTS masih berisiko
 
-Saran untuk stakeholder agar transisi hijau di Indonesia efektif dan efisien:
+**Saran untuk stakeholder agar transisi hijau di Indonesia efektif dan efisien:**
 1. Monitoring dan evaluasi terhadap kepatuhan perusahaan untuk meminimalisir praktik Granwashing.
 2. Mediasi anatara Pemerintah, Masyarakat, dan BUMN yang menjalankan proyek PLTS, serta ahli lingkungan untuk menarai solusi terbaik untuk lingkungan dan masyarakat tanpa mengambaikan kemajuan pembangunan.
 3. Menerapkan pajak yang lebih besar namun tidak mengganggu iklim investasi di Indonesia agar emisi yang dihasilkan dari perusahaan bisa diminimalisir.
+
+Semoga bermanfaat🌳
 
 ---
