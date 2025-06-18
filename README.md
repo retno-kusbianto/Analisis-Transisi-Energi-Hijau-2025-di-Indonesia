@@ -157,6 +157,8 @@ for index, row in df.iterrows():
         #Status bebas pajak jika emisi <= 50 ton
         print(f"{perusahaan} BEBAS pajak karbon dengan emisi {emisi} ton!")
 
+```
+
 ## Tampilkan List Data hasil
 
 
