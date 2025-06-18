@@ -183,3 +183,11 @@ Solusi konkret yang harus segera diterapkan:
 4. Audit independen terhadap laporan emisi perusahaan, untuk mencegah greenwashing dan manipulasi data.
 
 Langkah ini penting bukan hanya demi mencapai target iklim nasional, tetapi juga demi keadilan sosial dan lingkungan. Pajak karbon yang lemah hanya akan membebani masyarakat tanpa menyentuh akar persoalan: emisi industri besar yang tak terkendali.
+
+# BAGIAN 2 : MENGHITUNG PAJAK KARBON
+
+### TUJUAN : Menghitung pajak karbon untuk perusahaan dari CSV berdasarkan emisi 2024.
+
+### KONSEP: If-else dengan operasi, Pandas untuk baca CSV.
+
+### OUTPUT : Nilai pajak (Rp) untuk setiap perusahaan.
