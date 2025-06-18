@@ -1,12 +1,12 @@
 # Analisis-Transisi-Energi-Hijau-2025-di-Indonesia
 
-Nama: Agus Iskandar Darmawan
+**Nama: Agus Iskandar Darmawan
 
 No Absen: 09.009.DB2025
 
-Week Task
+Week Task**
 
-### Pendahuluan
+### ✏️ Pendahuluan
 
 Indonesia mengejar target ambisius, yaitu 23% energi terbarukan pada 2025. Namun, Data Kementerian ESDM menunjukkan kita baru mencapai 12% energi terbarukan pada 2023, jauh dari target. 
 
@@ -14,17 +14,17 @@ Pemerintah menerapkan pajak karbon untuk kurangi emisi industri, seperti di sekt
 
 Permasalahan tersebut butuh solusi cerdas. Dengan menggunakan Python, perhitungan pajak karbon, deteksi greenwashing, dan analisis risiko konflik lahan bisa dibuat. Dari hasil analisi yang didapatkan, akan dihasilkan saran untuk pemerintah agar investasi energi hijau lancar dan konflik minim.
 
-### Permasalahan
+### 📝 Permasalahan
 
 Transisi energi hijau 2025 di Indonesia menghadapi tiga masalah utama. Pertama, data emisi perusahaan sering tidak akurat, menyulitkan penerapan pajak karbon, terutama di industri tekstil Jawa Barat. Kedua, greenwashing merajalela. Banyak perusahaan mengklaim hijau, tapi emisinya melebihi batas. KLHK melaporkan 25% klaim hijau tidak terverifikasi. 
 
 Ketiga, konflik lahan menghambat proyek PLTS. Di Jawa Tengah, lahan sawah petani diambil untuk PLTS, memicu 800 konflik lahan pada 2023, menurut WALHI. Ini menghalangi investasi energi hijau dan merugikan komunitas lokal. Tanpa analisis data yang solid, pemerintah kesulitan membuat kebijakan efektif. Kita akan pakai Python untuk menghitung pajak karbon, mendeteksi greenwashing, dan mengevaluasi risiko lahan. Solusi ini membantu capai Net Zero Emission 2060 dan mengurangi konflik sosial. 
 
-### Analisis Python
+### 📈 Analisis Python
 
 Analisis Python merupakan analisis data menggunakan Python adalah proses mengeksplorasi, membersihkan, mengubah, dan memodelkan data untuk menemukan informasi yang berguna, menarik kesimpulan, dan mendukung pengambilan keputusan. Anaslisis ini Pandas untuk manipulasi dan analisis data tabular, NumPy untuk komputasi numerik, dan Matplotlib visualisasi data.
 
-### Analisis dan Visualisasi Data
+### </> Analisis dan Visualisasi Data
 
 Data yang digunakan merupakan data berbentuk CSV yang didapat dari Walhi. Database terdiri dari tiga tabulasi CSV, yakni emisi_perusahaan.csv yang berisi data emisi perusahaan di Jawa Barat, konflik_lahan.csv yang beriisi data konflik lahan PLTS di Indonesia, dan tren_emisi.csv yang berisi tren emisi perusahaan di jawa barat selama 4 tahun, antara 2000-2024. Perhitunan dan analisis ini dibagi menjadi queri untuk memudahkan proses coding.
 
@@ -452,7 +452,7 @@ Output:
 ![Tren Emisi]()
 
 
-### Hasil Analisis
+### 💡Hasil Analisis
 
 Dari analisis di atas dihasilkan beberapa hal:
 1. Tren menunjukan emisi yang dihasilkan menurun dari 2020 hingga 2023
