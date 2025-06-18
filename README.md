@@ -18,6 +18,8 @@ Analisis data transisi energi hijau 2025 di Indonesia dengan Python (Anaconda, V
 
 3. Identifikasi wilayah konflik lahan proyek energi hijau
 
+---
+
 🌱 Target energi terbarukan Indonesia
 
 - Pemerintah Indonesia menetapkan target 23% bauran energi nasional berasal dari energi terbarukan pada tahun 2025. Target ini tercantum dalam Rencana Umum Energi Nasional (RUEN), yang merupakan bagian dari upaya menurunkan emisi karbon dan mewujudkan ketahanan energi.
