@@ -6,8 +6,6 @@ No Absen: 09.009.DB2025
 
 Week Task
 
-## Analisis Transisi Hijau
-
 ### Pendahuluan
 
 Indonesia mengejar target ambisius, yaitu 23% energi terbarukan pada 2025. Namun, Data Kementerian ESDM menunjukkan kita baru mencapai 12% energi terbarukan pada 2023, jauh dari target. 
