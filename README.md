@@ -12,7 +12,9 @@ Analisis data transisi energi hijau 2025 di Indonesia dengan Python (Anaconda, V
 
 🎯 Tujuan Analisis
 1️⃣ Analisis data emisi industri untuk mendukung penerapan regulasi karbon.
+
 2️⃣ Deteksi pola greenwashing (klaim hijau vs data emisi sebenarnya).
+
 3️⃣ Identifikasi wilayah konflik lahan proyek energi hijau
 
 🌱 Target energi terbarukan Indonesia
