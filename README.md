@@ -37,7 +37,7 @@ Data yang digunakan merupakan data berbentuk CSV yang didapat dari Walhi. Databa
 
 ![tren_emisi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/tren_emisi.png)
 
-#### Queri 1: Mengecek Status Pajak
+#### Query 1: Mengecek Status Pajak
 
 
 Tujuan: Mengecek apakah emisi perusahaan dari CSV melebihi batas pajak karbon (50 ton CO2)
@@ -71,7 +71,7 @@ Output:
 ![Mengecek kepatuhan pajak](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/status%20pajak%202.png)
 
 
-#### Queri 2: Menghitung Pajak Karbon
+#### Query 2: Menghitung Pajak Karbon
 
 Tujuan: Menghitung Pajak Karbon untuk Perusahaan dari CSV Berdasarkan Emisi 2024
 
@@ -308,7 +308,7 @@ Output:
 
 ![Deteksi Greenwashing dengan fungsi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/deteksi%20greenwashing%203.png)
 
-#### QUERY 9: Analisi Konflik Lahan dengan Modul
+#### Query 9: Analisi Konflik Lahan dengan Modul
 
 Tujuan: Membuat Modul untuk Menganalisis Risiko Konflik Lahan Proyek PLTS dari CSV
 
@@ -339,7 +339,7 @@ Output:
 ![Analisis konflik lahan dengan modul](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/status%20konflik.png)
 
 
-#### QUERY 10: Bar Chart Emisi Perusahaan
+#### Query 10: Bar Chart Emisi Perusahaan
 
 Tujuan: Menvisualisasikan Emisi Perusahaan dari CSV dalam Bar Chart
 
@@ -379,7 +379,7 @@ Output:
 
 ![Bar Chart Emisi Perusahaan](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/output%20bar.png)
 
-#### QUERY 11: Pie Chart Distribusi Konflik Lahan
+#### Query 11: Pie Chart Distribusi Konflik Lahan
 
 Tujuan: Menvisualisasikan Proporsi Konflik Lahan dari CSV
 
@@ -419,7 +419,7 @@ Output:
 
 ![Pie chart distribusi konflik lahan](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/output%20pie.png)
 
-#### QUERY 12: Line Chart Tren Emisi
+#### Query 12: Line Chart Tren Emisi
 
 Tujuan: Memviualisasikan Tren Emisi Perusahaan dari 2020-2-23 dari CSV
 
@@ -463,7 +463,7 @@ Output:
 ![Tren Emisi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/output%20line.png)
 
 
-### 💡Hasil Analisis
+### 💡Kesimpulan dan Saran
 
 **Dari analisis di atas dihasilkan beberapa hal:**
 1. Tren menunjukan emisi yang dihasilkan menurun dari 2020 hingga 2023
