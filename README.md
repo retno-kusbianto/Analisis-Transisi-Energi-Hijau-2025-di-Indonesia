@@ -85,6 +85,7 @@ Poin Utama:
 # Library yang Harus Diinstal dan Manfaatnya
 
 Dalam proyek transisi energi hijau, kita butuh beberapa library untuk bantu analisis data dan visualisasi. Berikut ini daftar library penting yang bisa kamu instal di Anaconda environment:
+
 🔧 Library Python untuk Proyek Energi Hijau
 Pandas
 📦 Fungsi: Mengolah data tabular (CSV, Excel)
