@@ -69,4 +69,32 @@ Poin Utama:
 - Analisis Python dukung kebijakan energi hijau.
 - Solusi bantu capai Net Zero Emission 2060.
 
+# TUJUAN
+
+Membangun alat analisis data dengan Python untuk transisi energi hijau 2025! Pertama, kita menghitung pajak karbon agar perusahaan mematuhi regulasi, seperti di sektor industri Jawa Barat. Kedua, kita mendeteksi greenwashing, memverifikasi klaim hijau perusahaan agar publik tidak tertipu. Ketiga, kita menganalisis konflik lahan di proyek PLTS untuk meminimalkan dampak sosial, terutama di Jawa Tengah. Menggunakan data CSV realistis (30 baris, 5 kolom), kita mulai dari logika sederhana (if-else) hingga modul canggih, menghasilkan program rapi.
+
+Tujuannya? Memberikan usulan konkret ke pemerintah, seperti verifikasi emisi wajib dan mediasi lahan. Portofolio ini akan menunjukkan kemampuan kita menyelesaikan masalah nyata, mendukung target 23% energi terbarukan 2025 dan Net Zero Emission 2060.
+
+Poin Utama:
+- Hitung pajak karbon untuk kepatuhan regulasi.
+- Deteksi greenwashing berdasarkan data emisi.
+- Analisis risiko lahan untuk kurangi konflik sosial.
+- Gunakan Python dari if-else hingga modul.
+- Hasilkan portofolio dengan usulan ke pemerintah.
+
+# Library yang Harus Diinstal dan Manfaatnya
+
+Dalam proyek transisi energi hijau, kita butuh beberapa library untuk bantu analisis data dan visualisasi. Berikut ini daftar library penting yang bisa kamu instal di Anaconda environment:
+🔧 Library Python untuk Proyek Energi Hijau
+Pandas
+📦 Fungsi: Mengolah data tabular (CSV, Excel)
+
+🧠 Gunakan untuk: Membersihkan, menganalisis, dan merapikan data emisi dan data sosial.
+
+```python
+import pandas as pd
+
+```
+
+
   
