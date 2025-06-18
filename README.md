@@ -88,6 +88,7 @@ Dalam proyek transisi energi hijau, kita butuh beberapa library untuk bantu anal
 
 🔧 Library Python untuk Proyek Energi Hijau
 Pandas
+
 📦 Fungsi: Mengolah data tabular (CSV, Excel)
 
 🧠 Gunakan untuk: Membersihkan, menganalisis, dan merapikan data emisi dan data sosial.
