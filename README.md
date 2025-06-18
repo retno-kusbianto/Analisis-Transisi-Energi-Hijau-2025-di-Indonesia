@@ -136,3 +136,23 @@ tren_df = pd.read_csv('tren_emisi.csv')
 
 #### Output: Status pajak (kena/bebas) untuk setiap perusahaan
 
+# Baca file CSV untuk emisi perusahaan.csv dari folder proyek
+df = pd.read_csv('C:/EnergiHijau2025/emisi_perusahaan.csv')
+
+# Definisikan batas pajak karbon (50 ton CO2), sesuai dengan regulasi pemerintah
+batas = 50 
+
+# Iterasi setiap baris di dataframe untuk cek emisi
+for index, row in df.iterrows():
+    #Ambil nilai emisi dari kolom emisi_2024
+    emisi = row['Emisi_2024']
+    #Ambil nama perusahaan untuk output
+    perusahaan = row['Nama_Perusahaan']
+    #Cek apakah emisi melebihi batas penggunaan, menggunakan if-else
+    if emisi > batas:
+        #Cetak status kena pajak emisi . 50 ton
+        print(f"{perusahaan} KENA pajak karbon dengan emisi {emisi} ton!")
+    else:
+        #Status bebas pajak jika emisi <= 50 ton
+        print(f"{perusahaan} BEBAS pajak karbon dengan emisi {emisi} ton!")
+
