@@ -128,3 +128,11 @@ emisi_df = pd.read_csv("emisi_perusahaan.csv")
 konflik_lahan = pd.read_csv("konflik_lahan.csv")
 tren_df = pd.read_csv('tren_emisi.csv')
 ```  
+# BAGIAN 1 : CEK KEPATUHAN PAJAK KARBON
+
+#### Tujuan: Mengecek apakah emisi perusahaan dari CSV melebihi batas pajak karbon (50 ton CO2).
+
+#### Konsep: If-else, Pandas untuk baca CSV.
+
+#### Output: Status pajak (kena/bebas) untuk setiap perusahaan
+
