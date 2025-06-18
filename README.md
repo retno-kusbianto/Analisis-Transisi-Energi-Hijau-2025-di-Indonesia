@@ -118,4 +118,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ```
-  
+# Import Data Yang Dibutuhkan
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+emisi_df = pd.read_csv("emisi_perusahaan.csv")
+konflik_lahan = pd.read_csv("konflik_lahan.csv")
+tren_df = pd.read_csv('tren_emisi.csv')
+```  
