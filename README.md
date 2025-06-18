@@ -46,7 +46,9 @@ Contoh Greenwashing:
 🌱 Perusahaan mengiklankan penanaman pohon, tapi operasionalnya merusak hutan
 🌱 Kampanye plastik ramah lingkungan, tapi masih memproduksi sampah plastik sekali pakai dalam jumlah besar
 
-3. 
+3. Identifikasi wilayah konflik lahan proyek energi hijau
+
+   
 
 
 ---
