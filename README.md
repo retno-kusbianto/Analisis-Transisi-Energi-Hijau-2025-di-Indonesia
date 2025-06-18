@@ -136,6 +136,7 @@ tren_df = pd.read_csv('tren_emisi.csv')
 
 #### Output: Status pajak (kena/bebas) untuk setiap perusahaan
 
+```python
 # Baca file CSV untuk emisi perusahaan.csv dari folder proyek
 df = pd.read_csv('C:/EnergiHijau2025/emisi_perusahaan.csv')
 
