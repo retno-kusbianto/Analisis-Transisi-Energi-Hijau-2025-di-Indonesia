@@ -12,7 +12,7 @@ Analisis data transisi energi hijau 2025 di Indonesia dengan Python (Anaconda, V
 
 🎯 Tujuan Analisis
 
-1.  Analisis data emisi industri untuk mendukung penerapan regulasi karbon.
+1. Analisis data emisi industri untuk mendukung penerapan regulasi karbon.
 
 2. Deteksi pola greenwashing (klaim hijau vs data emisi sebenarnya).
 
@@ -50,10 +50,11 @@ Analisis data transisi energi hijau 2025 di Indonesia dengan Python (Anaconda, V
 
 3. Konflik lahan dalam proyek Pembangkit Listrik Tenaga Surya (PLTS) dapat menimbulkan dampak sosial yang signifikan, terutama jika perencanaannya tidak mempertimbangkan hak masyarakat lokal, petani, atau komunitas adat.
 
-Analisis risiko lahan sangat penting untuk mengurangi konflik sosial dalam proyek-proyek pembangunan, termasuk proyek energi hijau seperti PLTS (Pembangkit Listrik Tenaga Surya). Berikut adalah langkah-langkah dan aspek yang perlu dianalisis untuk menilai dan memitigasi risiko lahan dengan pemanfaatan teknologi, diantaranya :
-- GIS & Remote Sensing untuk pemetaan lahan dan zona risiko
-- Machine Learning untuk prediksi titik konflik berdasarkan data historis
-- Platform digital partisipatif untuk pelaporan keluhan masyarakat secara real-time
+    Analisis risiko lahan sangat penting untuk mengurangi konflik sosial dalam proyek-proyek pembangunan, termasuk proyek energi hijau seperti PLTS (Pembangkit Listrik Tenaga Surya). Berikut adalah langkah-langkah dan aspek yang perlu
+    dianalisis untuk menilai dan memitigasi risiko lahan dengan pemanfaatan teknologi, diantaranya :
+    - GIS & Remote Sensing untuk pemetaan lahan dan zona risiko
+    - Machine Learning untuk prediksi titik konflik berdasarkan data historis
+    - Platform digital partisipatif untuk pelaporan keluhan masyarakat secara real-time
 
 # PROBLEM ISSUE
 
