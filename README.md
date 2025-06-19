@@ -1,62 +1,193 @@
-# Analisis-Transisi-Energi-Hijau-2025-di-Indonesia
-Workshop Eco Techno Leader: Analisis Transisi Energi 2025 🌱⚡: Mari eksplorasi masa depan energi bersih! 🌍 Workshop ini kupas peluang &amp; tantangan transisi energi hijau di Indonesia 2025, dari kebijakan terbaru, teknologi terbarukan
+# Transisi Energi Hijau 2025 di Indonesia
+- Nama      : Retno Kusbianto
+- Batch     : 09
+- No Absen  : 09.007.DB2025 
 
+Analisis data transisi energi hijau 2025 di Indonesia dengan Python (Anaconda, VSCode, Jupyter Notebook) fokus regulasi karbon, greenwashing, dan konflik lahan
 
 ---
-![TRANSISIENERGIHIJAU](https://github.com/arry-hutomo/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/TRANSISI%20ENERGI%20HIJAU.png)
-
----
-
-Workshop: Eco Techno Leader - Analisis Transisi Energi Hijau 2025 di Indonesia 🌱💡
-
-Yuk, jadi pionir transisi energi hijau! 🚀✨ Workshop ini bakal kupas tuntas strategi & inovasi energi terbarukan di Indonesia tahun 2025 🌞🌊💨. Kita akan analisis peluang, tantangan, dan solusi buat masa depan rendah karbon 📊🔍.
-
-Apa yang bakal didapat? 🎁:
-🔸 Insight kebijakan terbaru pemerintah 📜🇮🇩
-🔸 Teknologi hijau terkini (surya, angin, hidro, dll.) ☀️🍃⚡
-🔸 Studi kasus sukses & roadmap implementasi 🗺️✅
-🔸 Networking dengan ahli & praktisi energi 🌐🤝
-
-Ditunggu partisipasinya! 🎉 Aksi kecil hari ini = dampak besar untuk bumi 🌍💚. Let’s lead the green revolution! ♻️🚀
-
-#EcoTechnoLeader #EnergiHijau2025 #IndonesiaHijau 🌿✨
+![TRANSISIENERGIHIJAU](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Green%20Energy%20Transition%20Analysis%202025%20in%20Indonesia.jpeg)
 
 ---
 
-![ROADMAP](https://github.com/arry-hutomo/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/ROADMAP.png)
+# 🎯 Tujuan Analisis
+
+1. Analisis data emisi industri untuk mendukung penerapan regulasi karbon.
+
+2. Deteksi pola greenwashing (klaim hijau vs data emisi sebenarnya).
+
+3. Identifikasi wilayah konflik lahan proyek energi hijau
 
 ---
-🌟✨ SELAMAT DATANG DI STAGE 2: ECO DATA PIONEERS! ✨🌟
 
-Halo, Eco-Techno Leaders masa depan! 🎉🌱 Bersiaplah masuk ke petualangan baru yang seru banget—kita akan jadi pionir data hijau untuk Indonesia yang lebih sustainable! 💚📊
+🌱 Target energi terbarukan Indonesia
 
-Di stage ini, kita akan:
-🔹 Hitung pajak karbon untuk patuhi regulasi 📜💰
-🔹 Deteksi greenwashing pakai data emisi 🕵️♂️🌍
-🔹 Analisis risiko lahan kurangi konflik sosial ⚖️🚜
-🔹 Belajar Python dari dasar sampai pro (if-else sampai modul!) 🐍💻
-🔹 Bikin portofolio keren buat usulan ke pemerintah 🏛️✨
+- Pemerintah Indonesia menetapkan target 23% bauran energi nasional berasal dari energi terbarukan pada tahun 2025. Target ini tercantum dalam Rencana Umum Energi Nasional (RUEN), yang merupakan bagian dari upaya menurunkan emisi karbon dan mewujudkan ketahanan energi.
 
-Tools yang akan dipakai:
-🛠️ Anaconda + VSCode + Jupyter Notebook
-📚 Library: Pandas, NumPy, Matplotlib (siap jadi data wizard!)
+⚡ Capaian hingga saat ini
 
-Tenang! Tutorial ini ramah pemula, langkah demi langkah, pakai data realistis, dan pastinya—dampaknya nyata! 🚀
+- Berdasarkan data terbaru (hingga 2024), capaian bauran energi terbarukan Indonesia baru sekitar 12-13%.
+- Ini berarti kita masih tertinggal sekitar 10-11% poin dari target 23% dalam waktu yang tersisa sangat singkat menuju 2025.
 
-"Masa depan hijau dimulai dari langkah kecil kita hari ini. Yuk, bersama-sama wujudkan perubahan!" 🌿🙌
+1. Penerapan pajak karbon dapat mendorong pengurangan emisi industri, sebagai bagian dari strategi ekonomi hijau dan komitmen iklim, baik di Indonesia maupun global
 
-Doa & Semangat:
-"Semoga ilmu ini jadi berkah, bermanfaat untuk bumi dan sesama. Aamiin! 🤲✨"
+    Dasar dan Tujuan Pajak Karbon di Indonesia
+    - Aturan ini diatur dalam Pasal 13 UU No. 7/2021 (UU HPP), dengan prinsip “polluter pays” dan skema cap‑and‑tax untuk sektor PLTU batu bara sejak April 2022 (diperluas ke sektor lain mulai 2025) 
+    - Tujuan utamanya: mengubah perilaku industri, mendorong efisiensi, mempercepat adopsi energi terbarukan, inovasi teknologi, dan menjadi sumber dana untuk mitigasi iklim serta SDGs 
+
+2. Greenwashing adalah strategi pemasaran atau komunikasi yang digunakan oleh perusahaan, organisasi, atau pihak tertentu untuk menampilkan diri seolah-olah peduli lingkungan atau ramah lingkungan, padahal kenyataannya tidak sesuai atau hanya sekadar pencitraan.
+
+    Ciri-ciri Greenwashing:
+    ✅ Klaim ramah lingkungan yang tidak didukung data atau bukti jelas
+    ✅ Informasi yang menyesatkan atau dilebih-lebihkan
+    ✅ Fokus pada satu aspek hijau, tapi mengabaikan dampak besar lain
+    ✅ Penggunaan label atau simbol hijau tanpa sertifikasi resmi
+
+    Contoh Greenwashing:
+    🌱 Produk dengan label “eco-friendly” tapi tidak ada sertifikasi resmi
+    🌱 Perusahaan mengiklankan penanaman pohon, tapi operasionalnya merusak hutan
+    🌱 Kampanye plastik ramah lingkungan, tapi masih memproduksi sampah plastik sekali pakai dalam jumlah besar
+
+3. Konflik lahan dalam proyek Pembangkit Listrik Tenaga Surya (PLTS) dapat menimbulkan dampak sosial yang signifikan, terutama jika perencanaannya tidak mempertimbangkan hak masyarakat lokal, petani, atau komunitas adat.
+
+    Analisis risiko lahan sangat penting untuk mengurangi konflik sosial dalam proyek-proyek pembangunan, termasuk proyek energi hijau seperti PLTS (Pembangkit Listrik Tenaga Surya). Berikut adalah langkah-langkah dan aspek yang perlu
+    dianalisis untuk menilai dan memitigasi risiko lahan dengan pemanfaatan teknologi, diantaranya :
+    - GIS & Remote Sensing untuk pemetaan lahan dan zona risiko
+    - Machine Learning untuk prediksi titik konflik berdasarkan data historis
+    - Platform digital partisipatif untuk pelaporan keluhan masyarakat secara real-time
+
+# PROBLEM ISSUE
+
+Transisi energi hijau 2025 di Indonesia menghadapi tiga masalah utama.
+1. Data emisi perusahaan sering tidak akurat, menyulitkan penerapan pajak karbon, terutama di industri tekstil Jawa Barat.
+2. Greenwashing merajalela. Banyak perusahaan mengklaim hijau, tapi emisinya melebihi batas. KLHK melaporkan 25% klaim hijau tidak terverifikasi.
+3. Konflik lahan menghambat proyek PLTS. Di Jawa Tengah, lahan sawah petani diambil untuk PLTS, memicu 800 konflik lahan pada 2023, menurut WALHI. Ini menghalangi investasi energi hijau dan merugikan komunitas lokal. Tanpa analisis data yang solid, pemerintah kesulitan membuat kebijakan efektif.
+
+Kita akan pakai Python untuk menghitung pajak karbon, mendeteksi greenwashing, dan mengevaluasi risiko lahan. Solusi ini membantu capai Net Zero Emission 2060 dan mengurangi konflik sosial. 
+
+Poin Utama:
+- Data emisi tidak akurat hambat pajak karbon.
+- Greenwashing (25% klaim tak valid) menyesatkan publik.
+- Konflik lahan (800 kasus 2023) ganggu proyek PLTS.
+- Analisis Python dukung kebijakan energi hijau.
+- Solusi bantu capai Net Zero Emission 2060.
+
+# TUJUAN
+
+Membangun alat analisis data dengan Python untuk transisi energi hijau 2025! Pertama, kita menghitung pajak karbon agar perusahaan mematuhi regulasi, seperti di sektor industri Jawa Barat. Kedua, kita mendeteksi greenwashing, memverifikasi klaim hijau perusahaan agar publik tidak tertipu. Ketiga, kita menganalisis konflik lahan di proyek PLTS untuk meminimalkan dampak sosial, terutama di Jawa Tengah. Menggunakan data CSV realistis (30 baris, 5 kolom), kita mulai dari logika sederhana (if-else) hingga modul canggih, menghasilkan program rapi.
+
+Tujuannya? Memberikan usulan konkret ke pemerintah, seperti verifikasi emisi wajib dan mediasi lahan. Portofolio ini akan menunjukkan kemampuan kita menyelesaikan masalah nyata, mendukung target 23% energi terbarukan 2025 dan Net Zero Emission 2060.
+
+Poin Utama:
+- Hitung pajak karbon untuk kepatuhan regulasi.
+- Deteksi greenwashing berdasarkan data emisi.
+- Analisis risiko lahan untuk kurangi konflik sosial.
+- Gunakan Python dari if-else hingga modul.
+- Hasilkan portofolio dengan usulan ke pemerintah.
+
+# Library yang Harus Diinstal dan Manfaatnya
+
+Dalam proyek transisi energi hijau, kita butuh beberapa library untuk bantu analisis data dan visualisasi. Berikut ini daftar library penting yang bisa kamu instal di Anaconda environment:
+
+🔧 Library Python untuk Proyek Energi Hijau
+
+1. Pandas
+📦 Fungsi: Mengolah data tabular (CSV, Excel)
+
+🧠 Gunakan untuk: Membersihkan, menganalisis, dan merapikan data emisi dan data sosial.
+
+```python
+import pandas as pd
+
+```
+2. NumPy
+📦 Fungsi: Operasi matematika dan numerik
+
+🧠 Gunakan untuk: Perhitungan emisi, threshold pajak karbon, analisis statistik dasar.
+
+```python
+import numpy as np
+
+```
+3. Matplotlib & Seaborn
+📦 Fungsi: Visualisasi data
+
+🧠 Gunakan untuk: Membuat grafik tren emisi, risiko konflik lahan, dan pola greenwashing.
+
+```python
+import matplotlib.pyplot as plt
+
+```
+# Siapkan Data Yang Akan Diimpor
+
+Dalam kasus ini kita akan mengimport data emisi perusahaan, konflik lahan dan tren emisi
+
+```python
+
+emisi_df = pd.read_csv("emisi_perusahaan.csv")
+konflik_lahan = pd.read_csv("konflik_lahan.csv")
+tren_df = pd.read_csv('tren_emisi.csv')
+```  
+# BAGIAN 1 : CEK KEPATUHAN PAJAK KARBON
+
+#### Tujuan: Mengecek apakah emisi perusahaan dari CSV melebihi batas pajak karbon (50 ton CO2).
+
+#### Konsep: If-else, Pandas untuk baca CSV.
+
+#### Output: Status pajak (kena/bebas) untuk setiap perusahaan
+
+```python
+# Baca file CSV untuk emisi perusahaan.csv dari folder proyek
+df = pd.read_csv('C:/EnergiHijau2025/emisi_perusahaan.csv')
+
+# Definisikan batas pajak karbon (50 ton CO2), sesuai dengan regulasi pemerintah
+batas = 50 
+
+# Iterasi setiap baris di dataframe untuk cek emisi
+for index, row in df.iterrows():
+    #Ambil nilai emisi dari kolom emisi_2024
+    emisi = row['Emisi_2024']
+    #Ambil nama perusahaan untuk output
+    perusahaan = row['Nama_Perusahaan']
+    #Cek apakah emisi melebihi batas penggunaan, menggunakan if-else
+    if emisi > batas:
+        #Cetak status kena pajak emisi . 50 ton
+        print(f"{perusahaan} KENA pajak karbon dengan emisi {emisi} ton!")
+    else:
+        #Status bebas pajak jika emisi <= 50 ton
+        print(f"{perusahaan} BEBAS pajak karbon dengan emisi {emisi} ton!")
+
+```
+
+## Tampilkan List Data hasil
 
 
-📌 Ready to rock? Klik link di bawah untuk mulai petualanganmu!
-
-[NEXT TO STAGES 2](https://arry-hutomo.github.io/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/)
-
-#EcoDataPioneers #EnergiHijau2025 #PythonForEarth 💡🌎
+```python
+hasil_df
+```
 
 
-**ARRY HUTOMO**  
-✨ _**Founder • Nawala Integra Nusantara**_ ✨  
 
----
+![image](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Kepatuhan%20Pajak%20Karbon.jpeg)
+
+
+### Kesimpulan 
+Data diatas menunjukkan bahwa lebih dari setengah pelaku industri masih belum patuh terhadap ambang batas emisi karbon yang ditetapkan pemerintah. Angka ini bukan sekadar statistik, melainkan sinyal krisis kepatuhan yang tidak bisa dianggap remeh.
+
+Pemerintah tidak bisa bersikap pasif. Ketegasan dari penegak hukum dan regulator sangat diperlukan agar kebijakan lingkungan tidak hanya menjadi formalitas di atas kertas. Penindakan tegas akan memberikan efek jera dan mendorong perusahaan untuk benar-benar menurunkan emisinya, bukan sekadar memanipulasi data atau berlindung di balik jargon “hijau”.
+Solusi konkret yang harus segera diterapkan:
+
+1. Kenaikan tarif pajak karbon secara progresif bagi perusahaan yang terus melampaui batas emisi.
+2. Penerapan sanksi administratif dan pidana yang lebih berat bagi pelanggar berulang.
+3. Peringatan keras dan publikasi daftar perusahaan tidak patuh agar ada tekanan sosial dan reputasi.
+4. Audit independen terhadap laporan emisi perusahaan, untuk mencegah greenwashing dan manipulasi data.
+
+Langkah ini penting bukan hanya demi mencapai target iklim nasional, tetapi juga demi keadilan sosial dan lingkungan. Pajak karbon yang lemah hanya akan membebani masyarakat tanpa menyentuh akar persoalan: emisi industri besar yang tak terkendali.
+
+# BAGIAN 2 : MENGHITUNG PAJAK KARBON
+
+### TUJUAN : Menghitung pajak karbon untuk perusahaan dari CSV berdasarkan emisi 2024.
+
+### KONSEP: If-else dengan operasi, Pandas untuk baca CSV.
+
+### OUTPUT : Nilai pajak (Rp) untuk setiap perusahaan.
