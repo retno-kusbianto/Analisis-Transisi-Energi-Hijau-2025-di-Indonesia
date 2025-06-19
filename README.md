@@ -9,6 +9,9 @@
 
 ---
 
+![ilustrasi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/ilustrasi%20transisi%20energi%20hijau.png)
+
+
 ### ✏️ Pendahuluan
 
 Indonesia mengejar target ambisius, yaitu 23% energi terbarukan pada 2025. Namun, Data Kementerian ESDM menunjukkan kita baru mencapai 12% energi terbarukan pada 2023, jauh dari target. 
@@ -25,7 +28,7 @@ Ketiga, konflik lahan menghambat proyek PLTS. Di Jawa Tengah, lahan sawah petani
 
 ### 📈 Analisis Python
 
-Analisis Python merupakan analisis data menggunakan Python adalah proses mengeksplorasi, membersihkan, mengubah, dan memodelkan data untuk menemukan informasi yang berguna, menarik kesimpulan, dan mendukung pengambilan keputusan. Anaslisis ini Pandas untuk manipulasi dan analisis data tabular, NumPy untuk komputasi numerik, dan Matplotlib visualisasi data.
+Analisis Python merupakan analisis data menggunakan Python adalah proses mengeksplorasi, membersihkan, mengubah, dan memodelkan data untuk menemukan informasi yang berguna, menarik kesimpulan, dan mendukung pengambilan keputusan. Anaslisis ini menggunakan Pandas untuk manipulasi dan analisis data tabular, NumPy untuk komputasi numerik, dan Matplotlib untuk visualisasi data.
 
 ### </> Analisis dan Visualisasi Data
 
@@ -180,7 +183,7 @@ Output:
 
 Tujuan: Menyimpan emisi perusahaan dari CSV ke dictionary dengan nama sebagai kunci.
 
-Konsep: Dictionary (Chapter 8), Pandas untuk baca CSV.
+Konsep: Dictionary, Pandas untuk baca CSV.
 
 Output: Dictionary berisi emisi perusahaan.
 
@@ -472,14 +475,14 @@ Output:
 ### 💡Kesimpulan dan Saran
 
 **Dari analisis di atas dihasilkan beberapa hal:**
-1. Tren menunjukan emisi yang dihasilkan menurun dari 2020 hingga 2023
-2. Masih banyak yang melakukan greenwashing
-3. 19 dari 31 perusahaan masih menghasilkan emisi di atas batas emisi yang ditentukan
-4. 70% Proyek PLTS masih berisiko
+1. Tren menunjukan emisi yang dihasilkan menurun dari 2020 hingga 2023.
+2. Masih banyak yang melakukan greenwashing.
+3. 19 dari 31 perusahaan masih menghasilkan emisi di atas batas emisi yang ditentukan.
+4. 70% Proyek PLTS masih berisiko konflik.
 
 **Saran untuk stakeholder agar transisi hijau di Indonesia efektif dan efisien:**
 1. Monitoring dan evaluasi terhadap kepatuhan perusahaan untuk meminimalisir praktik Greenwashing.
-2. Mediasi anatara Pemerintah, Masyarakat, dan BUMN yang menjalankan proyek PLTS, serta ahli lingkungan untuk menarai solusi terbaik untuk lingkungan dan masyarakat tanpa mengambaikan kemajuan pembangunan.
+2. Mediasi anatara Pemerintah, Masyarakat, dan BUMN yang menjalankan proyek PLTS, serta ahli lingkungan untuk menemukan solusi terbaik untuk lingkungan dan masyarakat tanpa mengabaikan kemajuan pembangunan.
 3. Menerapkan pajak yang lebih besar namun tidak mengganggu iklim investasi di Indonesia agar emisi yang dihasilkan dari perusahaan bisa diminimalisir.
 
 © ETL Batch 9
