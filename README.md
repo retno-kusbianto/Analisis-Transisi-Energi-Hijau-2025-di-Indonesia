@@ -182,3 +182,26 @@ Langkah ini penting bukan hanya demi mencapai target iklim nasional, tetapi juga
 ### KONSEP: If-else dengan operasi, Pandas untuk baca CSV.
 
 ### OUTPUT : Nilai pajak (Rp) untuk setiap perusahaan.
+
+```python
+# Cetak emisi untuk verifikasi
+print("Data emisi perusahaan:", emisi_list)# Baca file CSV untuk emisi perusahaan.csv dari folder proyek
+df = pd.read_csv('C:/EnergiHijau2025/emisi_perusahaan.csv')
+
+# Inisiasi list kosong untuk menyimpan emisi
+emisi_list = []
+
+# Iterasi setiap baris di dataframe untuk hitung pajak
+for index, row in df.iterrows():
+    #Ambil nilai emisi dari kolom emisi_2024
+    emisi = row['Emisi_2024']
+    #Tambahkan emisi kedalam list menggunakan APPEND
+    emisi_list.append(emisi)
+```
+
+Output
+
+![gambar](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/WhatsApp%20Image%202025-06-19%20at%2010.45.50.jpeg)
+
+Terdapat 30 data emisi perusahaan tersimpan dalam list. Data ini siap dianalisis untuk cek kepatuhan pajak karbon atau pelaporan emisi, sesuai standar lingkungan, bantu pemerintah verifikasi.
+
