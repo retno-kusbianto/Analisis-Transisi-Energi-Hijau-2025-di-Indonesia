@@ -8,15 +8,6 @@ Analisis data transisi energi hijau 2025 di Indonesia dengan Python (Anaconda, V
 ---
 ![TRANSISIENERGIHIJAU](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Green%20Energy%20Transition%20Analysis%202025%20in%20Indonesia.jpeg)
 
----
-
-# 🎯 Tujuan Analisis
-
-1. Analisis data emisi industri untuk mendukung penerapan regulasi karbon.
-
-2. Deteksi pola greenwashing (klaim hijau vs data emisi sebenarnya).
-
-3. Identifikasi wilayah konflik lahan proyek energi hijau
 
 ---
 
