@@ -11,6 +11,7 @@ Analisis data transisi energi hijau 2025 di Indonesia dengan Python (Anaconda, V
 
 ---
 
+# PENDAHULUAN
 🌱 Target energi terbarukan Indonesia
 
 - Pemerintah Indonesia menetapkan target 23% bauran energi nasional berasal dari energi terbarukan pada tahun 2025. Target ini tercantum dalam Rencana Umum Energi Nasional (RUEN), yang merupakan bagian dari upaya menurunkan emisi karbon dan mewujudkan ketahanan energi.
@@ -159,10 +160,9 @@ hasil_df
 
 
 
-![image](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Kepatuhan%20Pajak%20Karbon.jpeg)
+![image](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Query1.JPG)
 
 
-### Kesimpulan 
 Data diatas menunjukkan bahwa lebih dari setengah pelaku industri masih belum patuh terhadap ambang batas emisi karbon yang ditetapkan pemerintah. Angka ini bukan sekadar statistik, melainkan sinyal krisis kepatuhan yang tidak bisa dianggap remeh.
 
 Pemerintah tidak bisa bersikap pasif. Ketegasan dari penegak hukum dan regulator sangat diperlukan agar kebijakan lingkungan tidak hanya menjadi formalitas di atas kertas. Penindakan tegas akan memberikan efek jera dan mendorong perusahaan untuk benar-benar menurunkan emisinya, bukan sekadar memanipulasi data atau berlindung di balik jargon “hijau”.
@@ -184,36 +184,57 @@ Langkah ini penting bukan hanya demi mencapai target iklim nasional, tetapi juga
 ### OUTPUT : Nilai pajak (Rp) untuk setiap perusahaan.
 
 ```python
-# Cetak emisi untuk verifikasi
-print("Data emisi perusahaan:", emisi_list)# Baca file CSV untuk emisi perusahaan.csv dari folder proyek
+# Impor Pandas untuk mengelola data CSV
+import pandas as pd
+
+# Baca file CSV untuk emisi perusahaan.csv dari folder proyek
 df = pd.read_csv('C:/EnergiHijau2025/emisi_perusahaan.csv')
 
-# Inisiasi list kosong untuk menyimpan emisi
-emisi_list = []
+# Definisikan batas pajak karbon (50 ton CO2), sesuai dengan regulasi pemerintah
+batas = 50 
+tarif = 20000
 
 # Iterasi setiap baris di dataframe untuk hitung pajak
 for index, row in df.iterrows():
     #Ambil nilai emisi dari kolom emisi_2024
     emisi = row['Emisi_2024']
-    #Tambahkan emisi kedalam list menggunakan APPEND
-    emisi_list.append(emisi)
+    #Ambil nama perusahaan untuk output
+    perusahaan = row['Nama_Perusahaan']
+    #Cek apakah emisi melebihi batas penggunaan, menggunakan if-else
+    if emisi > batas:
+        # Hitung pajak: (emisi-batas) * tarif
+        pajak = (emisi - batas) * tarif
+        # Cetak nama perusahaan dan jumlah pajak
+        print(f"{perusahaan} KENA pajak karbon Rp {pajak}")
+    else:
+        #Status bebas pajak jika emisi <= 50 ton
+        print(f"{perusahaan} BEBAS pajak karbon!")
 ```
 
 Output
 
-![gambar](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/WhatsApp%20Image%202025-06-19%20at%2010.45.50.jpeg)
+![gambar](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/WhatsApp%20Image%202025-06-19%20at%2009.59.03.jpeg)
 
-Terdapat 30 data emisi perusahaan tersimpan dalam list. Data ini siap dianalisis untuk cek kepatuhan pajak karbon atau pelaporan emisi, sesuai standar lingkungan, bantu pemerintah verifikasi.
+Total perusahaan: 30
 
-#### Query 3: Menyimpan Data Emisi dalam List
+Kena pajak karbon: 20 perusahaan (66,7%)
 
-Tujuan: Menyimpan Emisi Perusahaan dari CSV ke dalam List untuk Analisis
+Bebas pajak karbon: 10 perusahaan (33,3%)
 
-Konsep: List dan for loop, Pandas untuk Baca CSV
+Ini berarti mayoritas perusahaan (2 dari 3) melampaui ambang batas emisi dan harus membayar pajak karbon.
 
-Output: List Berisi Emisi Perusahaan 
+Pajak ini dikenakan pada kelebihan emisi karbon di atas batas 50 ton CO₂, sesuai aturan pemerintah. Tarif yang digunakan adalah Rp 20.000 per ton CO₂ kelebihan. Tujuan pajak ini adalah untuk mendorong perusahaan agar lebih ramah lingkungan
 
-```
+
+# Bagian 3: MENYIMPAN DATA DALAM LIST
+
+### Tujuan: Menyimpan Emisi Perusahaan dari CSV ke dalam List untuk Analisis
+
+### Konsep: List dan for loop, Pandas untuk Baca CSV
+
+### Output: List Berisi Emisi Perusahaan 
+
+```python
 
 import pandas as pd
 
@@ -235,117 +256,167 @@ Output:
 
 ![Data_dalam_list](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/emisi%20dalam%20list.png)
 
-Query ini menggunakna list untuk menyimpan emisi dari emisi_perusahaan.csv, langkah awal mengelola data regulasi karbon. For loop dan append() digunakan untuk mengumpulkan data, cocok untuk pemula. Emisi diambil dari kolom Emisi_2024, realistis untuk industri menengah. Query ini kembangkan Query 2, beralih ke struktur data massal, mempersiapkan analisis lebih kompleks. Batas 50 ton (standar lingkungan) jadi acuan. Hasilnya bantu pemerintah verifikasi emisi, membangun portofolio dengan struktur data dasar, mendukung usulan verifikasi.
+Data tersebut adalah daftar emisi karbon (dalam ton CO₂) dari 30 perusahaan. Nilai-nilainya tersimpan dalam list Python dan siap dianalisis, terutama untuk mengevaluasi:
+
+- Kepatuhan terhadap batas emisi (misalnya 50 ton CO₂ per tahun).
+- Kewajiban membayar pajak karbon, jika melampaui batas.
+- Validasi laporan lingkungan perusahaan.
 
 
-#### Query 4: Analisis Kepatuhan Emisi dengan Metode LIST
+# BAGIAN 4 : ANALISIS KEPATUHAN EMISI DALAM METODE LIST
 
-Tujuan: Mengecek Kepatuhan Emisi Perusahaan dari list berdasarkan Batas Pajak
+### Tujuan: Mengecek Kepatuhan Emisi Perusahaan dari list berdasarkan Batas Pajak
 
-Konsep: List, for Loof, if-else, Pandas untuk Baca CSV
+### Konsep: List, for Loof, if-else, Pandas untuk Baca CSV
 
-Output: Status Pajak untuk Setiap Emisi
+### Output: Status Pajak untuk Setiap Emisi
 
-```
+```python
 
+# Impor Pandas untuk mengelola data CSV
 import pandas as pd
 
+# Baca file CSV untuk emisi perusahaan.csv dari folder proyek
 df = pd.read_csv('C:/EnergiHijau2025/emisi_perusahaan.csv')
 
+# Inisiasi list kosong untuk menyimpan emisi
 emisi_list = []
 
+# Iterasi setiap baris di dataframe untuk hitung pajak
 for index, row in df.iterrows():
+    #Ambil nilai emisi dari kolom emisi_2024
     emisi = row['Emisi_2024']
+    #Tambahkan emisi kedalam list menggunakan APPEND
     emisi_list.append(emisi)
 
-batas = 50
+# Definisikan batas pajak karbon (50 ton CO2), sesuai dengan regulasi pemerintah
+batas = 50 
 
-for i, emisi in enumerate(emisi_list):
+# Iterasi list emisi untuk cek kepatuhan
+
+for i,emisi in enumerate (emisi_list):
     perusahaan = df.iloc[i]['Nama_Perusahaan']
+     #Cek apakah emisi melebihi batas penggunaan, menggunakan if-else
     if emisi > batas:
-        print(f"{perusahaan} kena pajak dengan emisi {emisi} ton!")
+        # Cetak status kena pajak jika emisi > 50 ton
+        print(f"{perusahaan} KENA pajak dengan emisi {emisi} ton!")
     else:
-        print(f"{perusahaan} bebas kena pajak dengan emisi {emisi} ton")
-
+        #Cetak status bebas pajak jika emisi <= 50 ton
+        print(f"{perusahaan} BEBAS pajak dengan emisi {emisi} ton!")
 ```
 Output:
 
-![Mengecek kepatuhan pajak](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/status%20pajak%202.png)
+![Mengecek kepatuhan pajak](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Query5.JPG)
 
-#### Query 5: Menyimpan Data Emisi dalam Dictionary
+Data ini menunjukkan status kena atau bebas pajak karbon bagi perusahaan berdasarkan jumlah emisi CO₂ mereka. Batas ambang emisi yang ditetapkan adalah 50 ton CO₂. Jika emisi > 50 ton, perusahaan dikenakan pajak karbon.
 
-Tujuan: Menyimpan emisi perusahaan dari CSV ke dictionary dengan nama sebagai kunci.
+📊 Statistik Utama:
+Total perusahaan: 30
 
-Konsep: Dictionary, Pandas untuk baca CSV.
+- Kena pajak: 18 perusahaan (📈 60%)
+- Bebas pajak: 12 perusahaan (📉 40%)
 
-Output: Dictionary berisi emisi perusahaan.
+# BAGIAN 5 : MENYIMPAN DATA EMISI DALAM DICTIONARY
 
-```
+### Tujuan: Menyimpan emisi perusahaan dari CSV ke dictionary dengan nama sebagai kunci.
 
+### Konsep: Dictionary, Pandas untuk baca CSV.
+
+### Output: Dictionary berisi emisi perusahaan.
+
+```python
+
+# Impor Pandas untuk mengelola data CSV
 import pandas as pd
 
+# Baca file CSV untuk emisi perusahaan.csv dari folder proyek
 df = pd.read_csv('C:/EnergiHijau2025/emisi_perusahaan.csv')
 
+# Inisiasi Dictionary untuk menyimpan emisi
 emisi_dict = {}
 
+# Iterasi setiap baris di dataframe untuk simpan ke dictionary
 for index, row in df.iterrows():
+   # Ambil nama perusahaan sebagai key dictionary
+   perusahaan = row['Nama_Perusahaan']
+   # Ambil nilai emisi dari kolo Emisi_2024 sebagai nilainya
+   emisi = row['Emisi_2024']
+   # Tambahkan pasangan perusahaan - emisi kedalam dictionary
+   emisi_dict[perusahaan] = emisi
 
-    perusahaan = row['Nama_Perusahaan']
-
-    emisi = row['Emisi_2024']
-
-    emisi_dict[perusahaan] = emisi
-
-print("Data emisi perusahaan: ", emisi_dict)
+# Cetak dictionary emisi untuk verifikasi
+print("Data emisi perusahaan: ",emisi_dict)
 
 ```
 
 Output:
 
-![data emisi dalam dict](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/emisi%20perusahaan%20dalam%20dictionary.png)
+![data emisi dalam dict](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Query5..JPG)
 
-#### Query 6: Deteki Greenwashing dengan Dictionary
+Data ini menunjukkan jumlah emisi karbon (dalam ton CO₂) yang dihasilkan oleh 30 perusahaan. Emisi ini bisa digunakan untuk menentukan apakah perusahaan wajib membayar pajak karbon, tergantung apakah emisinya melebihi ambang batas, misalnya 50 ton CO₂ (batas umum dalam kebijakan pajak karbon Indonesia untuk sektor industri menengah)
 
-Tujuan: Mendeteksi greenwashing dari CSV berdasarkan klaim hijau dan emisi.
+# BAGIAN 6 : DETEKSI GREENWASHING DENGAN DICTIONARY
 
-Konsep: Dictionary, if-else (Chapter 8, 5), Pandas untuk baca CSV.
+### Tujuan: Mendeteksi greenwashing dari CSV berdasarkan klaim hijau dan emisi.
 
-Output: Status greenwashing untuk setiap perusahaan.
+### Konsep: Dictionary, if-else , Pandas untuk baca CSV.
 
-```
+### Output: Status greenwashing untuk setiap perusahaan.
 
+```python
+
+# Impor Pandas untuk mengelola data CSV
 import pandas as pd
 
+# Baca file CSV untuk emisi perusahaan.csv dari folder proyek
 df = pd.read_csv('C:/EnergiHijau2025/emisi_perusahaan.csv')
 
+# Inisiasi Dictionary untuk menyimpan emisi DAN KLAIM
 emisi_dict = {}
 
+# Iterasi setiap row didalalam dataframe untuk disimpan kedalam dictionary
 for index, row in df.iterrows():
+    # Ambil nama perusahaan sebagai kunci dictionary
     perusahaan = row['Nama_Perusahaan']
+    # Simpan emisi dan Klaim hijau dalam dictionary nya
     emisi_dict[perusahaan] = {
         'emisi':row['Emisi_2024'],
-        'klaim':row['Klaim_Hijau']
-    }
+        'klaim':row['Klaim_Hijau']  
+    } 
+    
+# Deteksi Greenwashing
+
+# Iterasi dictionary untuk gcek greenwashing
 
 for perusahaan, data in emisi_dict.items():
-    if data['klaim']== 'ya' and data['emisi']>50:
-        print(f"{perusahaan} TERDETEKSI GREENWASHING dengan emisi {data['emisi']} ton")
+    # Cek apakah perusahaan yang klaim disebut hijau tetapi emisinya > 50 ton
+    if data['klaim']=='ya' and data['emisi']>50:
+        # Cetak status greenwashing
+        print(f"{perusahaan} TERDETEKSI GREEWASHING dengan emisi {data['emisi'] } ton" )
     else:
-        print(f"{perusahaan} tidak terdeteksi greenwashing")
+        # Cetak ini bukan greenwashing
+        print(f"{perusahaan} tidak terdekteksi greenwashing ")
+
 
 ```
 
 Output:
 
-![Deteksi_Greenwashing](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/deteksi%20greenwashing.png)
+![Deteksi_Greenwashing](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Query6.JPG)
 
-#### Query 7: Menghitung Pajak Karbon dengan Fungsi
+Lebih dari setengah perusahaan menunjukkan praktik greenwashing meskipun memiliki emisi tinggi.
 
-Tujuan: Membuat fungsi untuk menghitung pajak karbon dari CSV.
-Konsep: Fungsi, if-else, Pandas untuk Baca CSV.
-Outpu: Nilai pajak untuk setiap perusahaan.
+Ini menunjukkan ketidaksesuaian antara klaim ramah lingkungan dan realitas emisi.
 
-```
+# BAGIAN 7 : MENGHITUNG PAJAK KARBON DENGAN FUNGSI
+
+### Tujuan: Membuat fungsi untuk menghitung pajak karbon dari CSV.
+
+### Konsep: Fungsi, if-else, Pandas untuk Baca CSV.
+
+### Outpu: Nilai pajak untuk setiap perusahaan.
+
+```python
 
 import pandas as pd
 
@@ -370,17 +441,22 @@ for index, row in df.iterrows():
 
 Output:
 
-![Menghitung pajak karbon dengan fungsi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/status%20pajak%203.png)
+![Menghitung pajak karbon dengan fungsi](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Query7.JPG)
 
-#### Query 8: Deteksi Greenwashing dengan Fungsi
+Dari data tersebut, terdapat perusahaan-perusahaan yang kena dan bebas pajak karbon berdasarkan emisi karbon mereka. Pajak ini dikenakan jika emisi perusahaan melebihi ambang batas (50 ton CO₂), sesuai kebijakan tarif Rp 20.000 per ton untuk kelebihan emisi.
 
-Tujuan: Membuat Fungsi untuk Mendeteksi Greenwashing dari CSV
+- Jumlah perusahaan yang kena pajak karbon: 19 perusahaan
+- Jumlah perusahaan yang bebas pajak karbon: 9 perusahaan
 
-Konsep: Fungsi, Dictionary, if-else, Pandas untuk baca CSV.
+# BAGIAN 8 : DETEKSI GREEN WASHING DENGAN FUNGSI
 
-Output: Status Greenwashing untuk setiap perusahaan.
+### Tujuan: Membuat Fungsi untuk Mendeteksi Greenwashing dari CSV
 
-```
+### Konsep: Fungsi, Dictionary, if-else, Pandas untuk baca CSV.
+
+### Output: Status Greenwashing untuk setiap perusahaan.
+
+```python
 
 import pandas as pd
 
@@ -408,48 +484,58 @@ cek_greenwashing(emisi_dict)
 
 Output:
 
-![Deteksi Greenwashing dengan fungsi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/deteksi%20greenwashing%203.png)
+![Deteksi Greenwashing dengan fungsi](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Query8.JPG)
 
-#### Query 9: Analisi Konflik Lahan dengan Modul
+# BAGIAN 9 : ANALISIS KONFLIK LAHAN DENGAN MODUL
 
-Tujuan: Membuat Modul untuk Menganalisis Risiko Konflik Lahan Proyek PLTS dari CSV
+### Tujuan: Membuat Modul untuk Menganalisis Risiko Konflik Lahan Proyek PLTS dari CSV
 
-Konsep: Modul, dictionary, if-else, Pandas untuk baca CSV.
+### Konsep: Modul, dictionary, if-else, Pandas untuk baca CSV.
 
-Output: Status Risiko untuk Setiap Proyek
+### Output: Status Risiko untuk Setiap Proyek
 
-```
-from konflik_lahan import cek_konflik
+```python
+
+import pandas as pd
+
+def cek_konflik(lahan_dict):
+    for proyek, data in lahan_dict.items():
+        if data['luas'] > 500 or data['konflik'] == 'ya':
+            print(f"Proyek {proyek} berisiko konflik lahan!")
+        else:
+            print(f"Proyek {proyek} aman dari konflik.")
+
 
 import pandas as pd
 
 df = pd.read_csv('C:/EnergiHijau2025/konflik_lahan.csv')
+
 lahan_dict = {}
+
 for index, row in df.iterrows():
     proyek = row['Nama_Proyek']
     lahan_dict[proyek] = {
-        'luas':row['Luas_Lahan'],
-        'konflik':row['Status_Konflik']
+        'luas': row['Luas_Lahan'],
+        'konflik': row['Status_Konflik']
     }
 
 cek_konflik(lahan_dict)
-
 ```
 
 Output:
 
-![Analisis konflik lahan dengan modul](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/status%20konflik.png)
+![Analisis konflik lahan dengan modul](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Query9.JPG)
 
 
-#### Query 10: Bar Chart Emisi Perusahaan
+# BAGIAN 10 : BAR CHART EMISI PERUSAHAAN
 
-Tujuan: Menvisualisasikan Emisi Perusahaan dari CSV dalam Bar Chart
+### Tujuan: Menvisualisasikan Emisi Perusahaan dari CSV dalam Bar Chart
 
-Konsep: Metplotlib, dictionary, Pandas untuk Baca CSV
+### Konsep: Metplotlib, dictionary, Pandas untuk Baca CSV
 
-Output: Bar Chart Emisi Perusahaan dengan Batas Pajak
+### Output: Bar Chart Emisi Perusahaan dengan Batas Pajak
 
-```
+```python
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -479,55 +565,56 @@ plot_emisi(emisi_dict)
 
 Output:
 
-![Bar Chart Emisi Perusahaan](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/output%20bar.png)
+![Bar Chart Emisi Perusahaan](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Query10.JPG)
 
-#### Query 11: Pie Chart Distribusi Konflik Lahan
+# BAGIAN 11 : PIE CHART DISTRIBUSI KONFLIK LAHAN
 
-Tujuan: Menvisualisasikan Proporsi Konflik Lahan dari CSV
+### Tujuan: Menvisualisasikan Proporsi Konflik Lahan dari CSV
 
-Konsep: Matplotlib, Dictionary, Pandas untuk Baca CSV
+### Konsep: Matplotlib, Dictionary, Pandas untuk Baca CSV
 
-Output: Pie Cart proporsi risiko konflik
+### Output: Pie Cart proporsi risiko konflik
 
-```
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 
 def plot_konflik(lahan_dict):
-    risiko = sum(1 for data in lahan_dict.values() if data ['luas'] > 500 or data ['konflik'] == 'ya')
+    risiko = sum(1 for data in lahan_dict.values() if data['luas'] > 500 or data['konflik'] == 'ya')
     aman = len(lahan_dict) - risiko
     labels = ['Berisiko', 'Aman']
     sizes = [risiko, aman]
     colors = ['red', 'green']
-    plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%' )
+    plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%')
     plt.title('Distribusi Risiko Konflik Lahan Proyek PLTS')
     plt.show()
 
-df=pd.read_csv('C:/EnergiHijau2025/konflik_lahan.csv')
+df = pd.read_csv('C:/EnergiHijau2025/konflik_lahan.csv')
 
 lahan_dict = {}
 
-for index, row in df. iterrows():
+for index, row in df.iterrows():
     proyek = row['Nama_Proyek']
     lahan_dict[proyek] = {
-        'luas':row['Luas_Lahan'],
-        'konflik':row['Status_Konflik']
+        'luas': row['Luas_Lahan'],
+        'konflik': row['Status_Konflik']
     }
+
 plot_konflik(lahan_dict)
 
 ```
 
 Output:
 
-![Pie chart distribusi konflik lahan](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/output%20pie.png)
+![Pie chart distribusi konflik lahan](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia)
 
-#### Query 12: Line Chart Tren Emisi
+# BAGIAN 12 : LINE CHART TREN EMISI
 
-Tujuan: Memviualisasikan Tren Emisi Perusahaan dari 2020-2-23 dari CSV
+### Tujuan: Memviualisasikan Tren Emisi Perusahaan dari 2020-2-23 dari CSV
 
-Konsep: Matplotlib, dictionary, Pandas untuk Baca CSV
+### Konsep: Matplotlib, dictionary, Pandas untuk Baca CSV
 
-Tujuan: Line Chart Statistik dan Kenapa Dipilih
+### Tujuan: Line Chart Statistik dan Kenapa Dipilih
 
 ```
 
@@ -562,21 +649,65 @@ plot_tren_emisi(emisi_dict)
 
 Output:
 
-![Tren Emisi](https://github.com/Agus-Iskandar-D/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/Weekly-Task_Agus-ID/output%20line.png)
+![Tren Emisi](https://github.com/retno-kusbianto/Analisis-Transisi-Energi-Hijau-2025-di-Indonesia/blob/main/Query12.JPG)
 
 
 ### 💡Kesimpulan dan Saran
 
 **Dari analisis di atas dihasilkan beberapa hal:**
-1. Tren menunjukan emisi yang dihasilkan menurun dari 2020 hingga 2023.
-2. Masih banyak yang melakukan greenwashing.
-3. 19 dari 31 perusahaan masih menghasilkan emisi di atas batas emisi yang ditentukan.
-4. 70% Proyek PLTS masih berisiko konflik.
+KESIMPULAN
+Proyek ini menunjukkan bagaimana analisis data berbasis Python dapat mendukung kebijakan energi hijau Indonesia secara konkret melalui tiga fokus utama: pajak karbon, greenwashing, dan konflik lahan.
 
-**Saran untuk stakeholder agar transisi hijau di Indonesia efektif dan efisien:**
-1. Monitoring dan evaluasi terhadap kepatuhan perusahaan untuk meminimalisir praktik Greenwashing.
-2. Mediasi anatara Pemerintah, Masyarakat, dan BUMN yang menjalankan proyek PLTS, serta ahli lingkungan untuk menemukan solusi terbaik untuk lingkungan dan masyarakat tanpa mengabaikan kemajuan pembangunan.
-3. Menerapkan pajak yang lebih besar namun tidak mengganggu iklim investasi di Indonesia agar emisi yang dihasilkan dari perusahaan bisa diminimalisir.
+1. Kepatuhan Pajak Karbon Masih Rendah
+
+    - Dari 30 perusahaan yang dianalisis, sekitar 60–67% melampaui ambang batas emisi karbon (50 ton CO₂) dan wajib membayar pajak karbon.
+    - Ini menunjukkan mayoritas industri belum patuh terhadap kebijakan emisi dan perlu dikontrol lebih ketat.
+
+2. Greenwashing Masih Marak
+
+    - Lebih dari 50% perusahaan yang mengklaim ramah lingkungan ternyata memiliki emisi tinggi.
+    - Praktik ini menyesatkan publik dan melemahkan kredibilitas program transisi energi hijau.
+
+3. Konflik Lahan Menghambat Proyek Energi Terbarukan
+
+    - Data menunjukkan banyak proyek PLTS berisiko konflik, terutama jika melibatkan lahan >500 ha atau sudah bermasalah secara sosial.
+    - Tanpa analisis sosial dan spasial, proyek-proyek ini bisa memicu konflik dan resistensi masyarakat.
+
+4. Pemanfaatan Python Efektif untuk Analisis Kebijakan
+
+    - Proyek berhasil menggunakan tools seperti Pandas, Matplotlib, dan fungsi modular Python untuk:
+        - Menghitung pajak karbon
+        - Mendeteksi greenwashing
+        - Menganalisis risiko konflik lahan
+        - Memvisualisasikan tren emisi perusahaan
+
+SARAN
+Untuk Pemerintah
+1. Perkuat Verifikasi Emisi
+
+    - Terapkan audit independen dan real-time monitoring atas data emisi perusahaan.
+    - Wajibkan pelaporan berbasis digital dan transparan.
+
+2. Tindak Tegas Greenwashing
+
+   - Buat sistem rating hijau nasional berbasis data, bukan iklan atau label mandiri.
+   - Perusahaan yang terbukti greenwashing harus diberi sanksi administratif dan reputasional.
+
+3. Optimalkan Pajak Karbon
+
+    - Naikkan tarif pajak karbon secara bertahap (progresif) untuk perusahaan yang terus melanggar.
+    - Gunakan dana pajak untuk mendukung teknologi rendah karbon dan insentif energi terbarukan.
+
+4. Cegah Konflik Sosial dalam Proyek Energi
+
+    - Wajibkan analisis risiko lahan berbasis GIS dan partisipasi masyarakat sebelum proyek PLTS dimulai.
+    - Fasilitasi mediasi dan ganti rugi adil bagi masyarakat terdampak.
+
+# Penutup
+
+Dengan memanfaatkan kemampuan data science, proyek ini berhasil menunjukkan bagaimana teknologi dapat menjadi alat bantu strategis untuk mendorong tercapainya target 23% energi terbarukan pada 2025 dan Net Zero Emission 2060.
+
+Ini adalah bukti bahwa analisis data bukan hanya teori, tetapi solusi nyata untuk masalah lingkungan, industri, dan sosial di Indonesia.
 
 © ETL Batch 9
 
